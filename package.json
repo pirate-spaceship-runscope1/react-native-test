@@ -5,8 +5,10 @@
   "scripts": {
     "start": "node node_modules/react-native/local-cli/cli.js start"
   },
-  "dependencies": {
-    "react": "^16.0.0",
+  "devDependencies": {
     "react-native": "^0.51.0"
+  },
+  "dependencies": {
+    "react": "^16.0.0"
   }
 }
