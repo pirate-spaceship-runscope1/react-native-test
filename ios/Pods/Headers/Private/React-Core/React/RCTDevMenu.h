@@ -1,4 +1,4 @@
-/**
+/*
  * Copyright (c) Facebook, Inc. and its affiliates.
  *
  * This source code is licensed under the MIT license found in the
@@ -9,8 +9,9 @@
 
 #import <React/RCTBridge.h>
 #import <React/RCTBridgeModule.h>
+#import <React/RCTDefines.h>
 
-#if RCT_DEV
+#if RCT_DEV_MENU
 
 RCT_EXTERN NSString *const RCTShowDevMenuNotification;
 
@@ -60,7 +61,7 @@ RCT_EXTERN NSString *const RCTShowDevMenuNotification;
 - (void)show;
 
 /**
- * Deprecated, use -[RCTBRidge reload] instead.
+ * Deprecated, use `RCTReloadCommand` instead.
  */
 - (void)reload DEPRECATED_ATTRIBUTE;
 
