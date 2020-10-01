@@ -1,6 +1,7 @@
 platform :ios, '9.0'
 require_relative '../node_modules/@react-native-community/cli-platform-ios/native_modules'
 
+<<<<<<< HEAD
 def add_flipper_pods!(versions = {})
   versions['Flipper'] ||= '~> 0.33.1'
   versions['DoubleConversion'] ||= '1.1.7'
@@ -54,6 +55,13 @@ target 'ReactNativeTest622' do
   pod 'React-Core', :path => '../node_modules/react-native/'
   pod 'React-CoreModules', :path => '../node_modules/react-native/React/CoreModules'
   pod 'React-Core/DevSupport', :path => '../node_modules/react-native/'
+=======
+target 'TestProject' do
+  # Pods for TestProject
+  pod 'React', :path => '../node_modules/react-native/'
+  pod 'React-Core', :path => '../node_modules/react-native/React'
+  pod 'React-DevSupport', :path => '../node_modules/react-native/React'
+>>>>>>> v0.61-node-8
   pod 'React-RCTActionSheet', :path => '../node_modules/react-native/Libraries/ActionSheetIOS'
   pod 'React-RCTAnimation', :path => '../node_modules/react-native/Libraries/NativeAnimation'
   pod 'React-RCTBlob', :path => '../node_modules/react-native/Libraries/Blob'
@@ -63,26 +71,40 @@ target 'ReactNativeTest622' do
   pod 'React-RCTSettings', :path => '../node_modules/react-native/Libraries/Settings'
   pod 'React-RCTText', :path => '../node_modules/react-native/Libraries/Text'
   pod 'React-RCTVibration', :path => '../node_modules/react-native/Libraries/Vibration'
+<<<<<<< HEAD
   pod 'React-Core/RCTWebSocket', :path => '../node_modules/react-native/'
+=======
+  pod 'React-RCTWebSocket', :path => '../node_modules/react-native/Libraries/WebSocket'
+>>>>>>> v0.61-node-8
 
   pod 'React-cxxreact', :path => '../node_modules/react-native/ReactCommon/cxxreact'
   pod 'React-jsi', :path => '../node_modules/react-native/ReactCommon/jsi'
   pod 'React-jsiexecutor', :path => '../node_modules/react-native/ReactCommon/jsiexecutor'
   pod 'React-jsinspector', :path => '../node_modules/react-native/ReactCommon/jsinspector'
+<<<<<<< HEAD
   pod 'ReactCommon/callinvoker', :path => "../node_modules/react-native/ReactCommon"
   pod 'ReactCommon/turbomodule/core', :path => "../node_modules/react-native/ReactCommon"
   pod 'Yoga', :path => '../node_modules/react-native/ReactCommon/yoga', :modular_headers => true
+=======
+  pod 'yoga', :path => '../node_modules/react-native/ReactCommon/yoga'
+>>>>>>> v0.61-node-8
 
   pod 'DoubleConversion', :podspec => '../node_modules/react-native/third-party-podspecs/DoubleConversion.podspec'
   pod 'glog', :podspec => '../node_modules/react-native/third-party-podspecs/glog.podspec'
   pod 'Folly', :podspec => '../node_modules/react-native/third-party-podspecs/Folly.podspec'
 
+<<<<<<< HEAD
   target 'ReactNativeTest622Tests' do
     inherit! :complete
+=======
+  target 'TestProjectTests' do
+    inherit! :search_paths
+>>>>>>> v0.61-node-8
     # Pods for testing
   end
 
   use_native_modules!
+<<<<<<< HEAD
 
   # Enables Flipper.
   #
@@ -101,4 +123,16 @@ target 'ReactNativeTest622-tvOS' do
     inherit! :search_paths
     # Pods for testing
   end
+=======
+end
+
+target 'TestProject-tvOS' do
+  # Pods for TestProject-tvOS
+
+  target 'TestProject-tvOSTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+>>>>>>> v0.61-node-8
 end

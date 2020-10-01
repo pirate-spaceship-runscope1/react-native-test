@@ -5,7 +5,11 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleDisplayName</key>
+<<<<<<< HEAD:ios/ReactNativeTest622/Info.plist
 	<string>ReactNativeTest622</string>
+=======
+	<string>TestProject</string>
+>>>>>>> v0.61-node-8:ios/TestProject/Info.plist
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>

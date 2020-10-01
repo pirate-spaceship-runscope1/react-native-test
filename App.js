@@ -6,7 +6,11 @@
  * @flow
  */
 
+<<<<<<< HEAD
 import React from 'react';
+=======
+import React, {Fragment} from 'react';
+>>>>>>> v0.61-node-8
 import {
   SafeAreaView,
   StyleSheet,
@@ -24,9 +28,15 @@ import {
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
 
+<<<<<<< HEAD
 const App: () => React$Node = () => {
   return (
     <>
+=======
+const App = () => {
+  return (
+    <Fragment>
+>>>>>>> v0.61-node-8
       <StatusBar barStyle="dark-content" />
       <SafeAreaView>
         <ScrollView
@@ -68,7 +78,11 @@ const App: () => React$Node = () => {
           </View>
         </ScrollView>
       </SafeAreaView>
+<<<<<<< HEAD
     </>
+=======
+    </Fragment>
+>>>>>>> v0.61-node-8
   );
 };
 

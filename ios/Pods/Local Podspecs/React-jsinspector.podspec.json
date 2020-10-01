@@ -1,6 +1,10 @@
 {
   "name": "React-jsinspector",
+<<<<<<< HEAD
   "version": "0.62.2",
+=======
+  "version": "0.60.5",
+>>>>>>> v0.61-node-8
   "summary": "-",
   "homepage": "http://facebook.github.io/react-native/",
   "license": "MIT",
@@ -11,7 +15,11 @@
   },
   "source": {
     "git": "https://github.com/facebook/react-native.git",
+<<<<<<< HEAD
     "tag": "v0.62.2"
+=======
+    "tag": "v0.60.5"
+>>>>>>> v0.61-node-8
   },
   "source_files": "*.{cpp,h}",
   "header_dir": "jsinspector"

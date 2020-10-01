@@ -6,13 +6,21 @@ buildscript {
         minSdkVersion = 16
         compileSdkVersion = 28
         targetSdkVersion = 28
+<<<<<<< HEAD
+=======
+        supportLibVersion = "28.0.0"
+>>>>>>> v0.61-node-8
     }
     repositories {
         google()
         jcenter()
     }
     dependencies {
+<<<<<<< HEAD
         classpath("com.android.tools.build:gradle:3.4.2")
+=======
+        classpath("com.android.tools.build:gradle:3.4.1")
+>>>>>>> v0.61-node-8
 
         // NOTE: Do not place your application dependencies here; they belong
         // in the individual module build.gradle files
@@ -33,6 +41,9 @@ allprojects {
 
         google()
         jcenter()
+<<<<<<< HEAD
         maven { url 'https://jitpack.io' }
+=======
+>>>>>>> v0.61-node-8
     }
 }

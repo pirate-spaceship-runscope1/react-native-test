@@ -1,6 +1,10 @@
 {
   "name": "React-RCTText",
+<<<<<<< HEAD
   "version": "0.62.2",
+=======
+  "version": "0.60.5",
+>>>>>>> v0.61-node-8
   "summary": "A React component for displaying text.",
   "homepage": "http://facebook.github.io/react-native/",
   "documentation_url": "https://facebook.github.io/react-native/docs/text",
@@ -12,7 +16,11 @@
   },
   "source": {
     "git": "https://github.com/facebook/react-native.git",
+<<<<<<< HEAD
     "tag": "v0.62.2"
+=======
+    "tag": "v0.60.5"
+>>>>>>> v0.61-node-8
   },
   "source_files": "**/*.{h,m}",
   "preserve_paths": [
@@ -20,10 +28,17 @@
     "LICENSE",
     "LICENSE-docs"
   ],
+<<<<<<< HEAD
   "header_dir": "RCTText",
   "dependencies": {
     "React-Core/RCTTextHeaders": [
       "0.62.2"
+=======
+  "header_dir": "React",
+  "dependencies": {
+    "React-Core": [
+      "0.60.5"
+>>>>>>> v0.61-node-8
     ]
   }
 }
