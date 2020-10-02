@@ -1,8 +1,13 @@
 platform :ios, '9.0'
 require_relative '../node_modules/@react-native-community/cli-platform-ios/native_modules'
 
+<<<<<<< HEAD
 target 'ReactNativeTest615' do
   # Pods for ReactNativeTest615
+=======
+target 'helloworld' do
+  # Pods for helloworld
+>>>>>>> v0.61-node-8
   pod 'FBLazyVector', :path => "../node_modules/react-native/Libraries/FBLazyVector"
   pod 'FBReactNativeSpec', :path => "../node_modules/react-native/Libraries/FBReactNativeSpec"
   pod 'RCTRequired', :path => "../node_modules/react-native/Libraries/RCTRequired"
@@ -34,7 +39,11 @@ target 'ReactNativeTest615' do
   pod 'glog', :podspec => '../node_modules/react-native/third-party-podspecs/glog.podspec'
   pod 'Folly', :podspec => '../node_modules/react-native/third-party-podspecs/Folly.podspec'
 
+<<<<<<< HEAD
   target 'ReactNativeTest615Tests' do
+=======
+  target 'helloworldTests' do
+>>>>>>> v0.61-node-8
     inherit! :search_paths
     # Pods for testing
   end
@@ -42,12 +51,30 @@ target 'ReactNativeTest615' do
   use_native_modules!
 end
 
+<<<<<<< HEAD
 target 'ReactNativeTest615-tvOS' do
   # Pods for ReactNativeTest615-tvOS
 
   target 'ReactNativeTest615-tvOSTests' do
+=======
+target 'helloworld-tvOS' do
+  # Pods for helloworld-tvOS
+
+  target 'helloworld-tvOSTests' do
+>>>>>>> v0.61-node-8
     inherit! :search_paths
     # Pods for testing
   end
 
 end
+<<<<<<< HEAD
+=======
+
+post_install do |installer|
+  installer.pods_project.targets.each do |target|
+    target.build_configurations.each do |config|
+      config.build_settings.delete 'IPHONEOS_DEPLOYMENT_TARGET'
+    end
+  end
+end
+>>>>>>> v0.61-node-8

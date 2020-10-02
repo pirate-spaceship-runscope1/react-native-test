@@ -1,4 +1,9 @@
 {
+<<<<<<< HEAD
   "name": "ReactNativeTest615",
   "displayName": "ReactNativeTest615"
+=======
+  "name": "helloworld",
+  "displayName": "helloworld"
+>>>>>>> v0.61-node-8
 }

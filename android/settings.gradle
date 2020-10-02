@@ -1,3 +1,7 @@
+<<<<<<< HEAD
 rootProject.name = 'ReactNativeTest615'
+=======
+rootProject.name = 'helloworld'
+>>>>>>> v0.61-node-8
 apply from: file("../node_modules/@react-native-community/cli-platform-android/native_modules.gradle"); applyNativeModulesSettingsGradle(settings)
 include ':app'
