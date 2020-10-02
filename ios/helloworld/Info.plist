@@ -26,11 +26,8 @@
 	<true/>
 	<key>NSAppTransportSecurity</key>
 	<dict>
-<<<<<<< HEAD:ios/ReactNativeTest615-tvOS/Info.plist
-=======
 		<key>NSAllowsArbitraryLoads</key>
 		<true/>
->>>>>>> v0.61-node-8:ios/helloworld/Info.plist
 		<key>NSExceptionDomains</key>
 		<dict>
 			<key>localhost</key>

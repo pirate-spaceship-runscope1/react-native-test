@@ -14,19 +14,11 @@
 #define TIMEOUT_SECONDS 600
 #define TEXT_TO_LOOK_FOR @"Welcome to React"
 
-<<<<<<< HEAD:ios/ReactNativeTest615Tests/ReactNativeTest615Tests.m
-@interface ReactNativeTest615Tests : XCTestCase
-
-@end
-
-@implementation ReactNativeTest615Tests
-=======
 @interface helloworldTests : XCTestCase
 
 @end
 
 @implementation helloworldTests
->>>>>>> v0.61-node-8:ios/helloworldTests/helloworldTests.m
 
 - (BOOL)findSubviewInView:(UIView *)view matching:(BOOL(^)(UIView *view))test
 {

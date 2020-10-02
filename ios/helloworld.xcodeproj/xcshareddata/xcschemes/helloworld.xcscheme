@@ -14,15 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-<<<<<<< HEAD:ios/ReactNativeTest615.xcodeproj/xcshareddata/xcschemes/ReactNativeTest615-tvOS.xcscheme
-               BlueprintIdentifier = "2D2A28121D9B038B00D4039D"
-               BuildableName = "libReact.a"
-               BlueprintName = "React-tvOS"
-=======
                BlueprintIdentifier = "83CBBA2D1A601D0E00E9B192"
                BuildableName = "libReact.a"
                BlueprintName = "React"
->>>>>>> v0.61-node-8:ios/helloworld.xcodeproj/xcshareddata/xcschemes/helloworld.xcscheme
                ReferencedContainer = "container:../node_modules/react-native/React/React.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -34,17 +28,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-<<<<<<< HEAD:ios/ReactNativeTest615.xcodeproj/xcshareddata/xcschemes/ReactNativeTest615-tvOS.xcscheme
-               BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-               BuildableName = "ReactNativeTest615-tvOS.app"
-               BlueprintName = "ReactNativeTest615-tvOS"
-               ReferencedContainer = "container:ReactNativeTest615.xcodeproj">
-=======
                BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
                BuildableName = "helloworld.app"
                BlueprintName = "helloworld"
                ReferencedContainer = "container:helloworld.xcodeproj">
->>>>>>> v0.61-node-8:ios/helloworld.xcodeproj/xcshareddata/xcschemes/helloworld.xcscheme
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -55,17 +42,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-<<<<<<< HEAD:ios/ReactNativeTest615.xcodeproj/xcshareddata/xcschemes/ReactNativeTest615-tvOS.xcscheme
-               BlueprintIdentifier = "2D02E48F1E0B4A5D006451C7"
-               BuildableName = "ReactNativeTest615-tvOSTests.xctest"
-               BlueprintName = "ReactNativeTest615-tvOSTests"
-               ReferencedContainer = "container:ReactNativeTest615.xcodeproj">
-=======
                BlueprintIdentifier = "00E356ED1AD99517003FC87E"
                BuildableName = "helloworldTests.xctest"
                BlueprintName = "helloworldTests"
                ReferencedContainer = "container:helloworld.xcodeproj">
->>>>>>> v0.61-node-8:ios/helloworld.xcodeproj/xcshareddata/xcschemes/helloworld.xcscheme
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -80,34 +60,20 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-<<<<<<< HEAD:ios/ReactNativeTest615.xcodeproj/xcshareddata/xcschemes/ReactNativeTest615-tvOS.xcscheme
-               BlueprintIdentifier = "2D02E48F1E0B4A5D006451C7"
-               BuildableName = "ReactNativeTest615-tvOSTests.xctest"
-               BlueprintName = "ReactNativeTest615-tvOSTests"
-               ReferencedContainer = "container:ReactNativeTest615.xcodeproj">
-=======
                BlueprintIdentifier = "00E356ED1AD99517003FC87E"
                BuildableName = "helloworldTests.xctest"
                BlueprintName = "helloworldTests"
                ReferencedContainer = "container:helloworld.xcodeproj">
->>>>>>> v0.61-node-8:ios/helloworld.xcodeproj/xcshareddata/xcschemes/helloworld.xcscheme
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-<<<<<<< HEAD:ios/ReactNativeTest615.xcodeproj/xcshareddata/xcschemes/ReactNativeTest615-tvOS.xcscheme
-            BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-            BuildableName = "ReactNativeTest615-tvOS.app"
-            BlueprintName = "ReactNativeTest615-tvOS"
-            ReferencedContainer = "container:ReactNativeTest615.xcodeproj">
-=======
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
             BuildableName = "helloworld.app"
             BlueprintName = "helloworld"
             ReferencedContainer = "container:helloworld.xcodeproj">
->>>>>>> v0.61-node-8:ios/helloworld.xcodeproj/xcshareddata/xcschemes/helloworld.xcscheme
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -127,17 +93,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-<<<<<<< HEAD:ios/ReactNativeTest615.xcodeproj/xcshareddata/xcschemes/ReactNativeTest615-tvOS.xcscheme
-            BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-            BuildableName = "ReactNativeTest615-tvOS.app"
-            BlueprintName = "ReactNativeTest615-tvOS"
-            ReferencedContainer = "container:ReactNativeTest615.xcodeproj">
-=======
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
             BuildableName = "helloworld.app"
             BlueprintName = "helloworld"
             ReferencedContainer = "container:helloworld.xcodeproj">
->>>>>>> v0.61-node-8:ios/helloworld.xcodeproj/xcshareddata/xcschemes/helloworld.xcscheme
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -153,17 +112,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-<<<<<<< HEAD:ios/ReactNativeTest615.xcodeproj/xcshareddata/xcschemes/ReactNativeTest615-tvOS.xcscheme
-            BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-            BuildableName = "ReactNativeTest615-tvOS.app"
-            BlueprintName = "ReactNativeTest615-tvOS"
-            ReferencedContainer = "container:ReactNativeTest615.xcodeproj">
-=======
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
             BuildableName = "helloworld.app"
             BlueprintName = "helloworld"
             ReferencedContainer = "container:helloworld.xcodeproj">
->>>>>>> v0.61-node-8:ios/helloworld.xcodeproj/xcshareddata/xcschemes/helloworld.xcscheme
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
