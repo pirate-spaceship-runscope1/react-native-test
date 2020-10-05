@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double Pods_ReactNativeTest622_ReactNativeTest622TestsVersionNumber;
-FOUNDATION_EXPORT const unsigned char Pods_ReactNativeTest622_ReactNativeTest622TestsVersionString[];
+FOUNDATION_EXPORT double Pods_helloworld_helloworldTestsVersionNumber;
+FOUNDATION_EXPORT const unsigned char Pods_helloworld_helloworldTestsVersionString[];
 
