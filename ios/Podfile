@@ -44,8 +44,8 @@ def flipper_post_install(installer)
   end
 end
 
-target 'ReactNativeTest622' do
-  # Pods for ReactNativeTest622
+target 'helloworld' do
+  # Pods for helloworld
   pod 'FBLazyVector', :path => "../node_modules/react-native/Libraries/FBLazyVector"
   pod 'FBReactNativeSpec', :path => "../node_modules/react-native/Libraries/FBReactNativeSpec"
   pod 'RCTRequired', :path => "../node_modules/react-native/Libraries/RCTRequired"
@@ -77,7 +77,7 @@ target 'ReactNativeTest622' do
   pod 'glog', :podspec => '../node_modules/react-native/third-party-podspecs/glog.podspec'
   pod 'Folly', :podspec => '../node_modules/react-native/third-party-podspecs/Folly.podspec'
 
-  target 'ReactNativeTest622Tests' do
+  target 'helloworldTests' do
     inherit! :complete
     # Pods for testing
   end
@@ -94,10 +94,10 @@ target 'ReactNativeTest622' do
   end
 end
 
-target 'ReactNativeTest622-tvOS' do
-  # Pods for ReactNativeTest622-tvOS
+target 'helloworld-tvOS' do
+  # Pods for helloworld-tvOS
 
-  target 'ReactNativeTest622-tvOSTests' do
+  target 'helloworld-tvOSTests' do
     inherit! :search_paths
     # Pods for testing
   end
